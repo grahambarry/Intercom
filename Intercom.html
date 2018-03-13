@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Customers GPS Radius</title>
+        <link rel="stylesheet" href="styles/style.css">
+            <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+          
+            <script src="intercomMapProximity.js"></script>
+          
+  
+</head>
+
+    <body>
+        <div class="container">
+        <div id="mapOptions">
+            <div id="distance">
+           
+            <label for="inputDistance">Km Radius: </label>
+            <input id="inputDistance" type="text" oninput="distanceUserInput(this.value)" label="KM" value="100">                  
+          </div>                                        
+            <div id="cityButtons">
+                <button onClick="choose(intercomDublinCoords)" selected>Dublin</button>
+                <button onClick="choose(intercomChicagoCoords)">Chicago</button>
+            <div>
+            </div>
+</div>
+</div>
+            <div id="map_wrapper">
+                <div id="map_canvas" class="mapping"></div>
+            </div>
+                <div id="jsonOutputBox"><h1>JSON Output</h1><h3>Customers within radius of Intercom Office location ordered by user_id:<h3><pre id="json"></pre></div>
+            </div>
+        </div>
+    </body>
+
+</html>

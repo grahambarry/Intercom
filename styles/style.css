@@ -1,0 +1,102 @@
+/*Font used for styling demo*/
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+#map_wrapper {
+    height: 400px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
+}
+
+input{
+	font-family: 'Roboto', sans-serif;
+    background-color: white; /* Light Gray */
+    border: none;
+    color: 	#505050; /* Dark Gray */
+    padding: 5px 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-right:15px;
+}
+
+input:focus{
+	outline:0;
+	border-color: #BEBEBE}
+
+label{
+	font-family: 'Roboto', sans-serif;
+    border: none;
+    color: #505050; /* Dark Gray */
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+
+}
+
+button {
+    background-color: #DCDCDC; /* Light Gray */
+    border: none;
+    color: 	#505050; /* Dark Gray */
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+button:hover{
+	background-color: white;
+}
+
+button:focus{
+	background-color: #BEBEBE;
+	outline:0;
+	color: white;
+	border: 1px;
+	border-color: #f3f3f3;
+}
+
+button.selected{
+	background-color: #BEBEBE;
+	outline:0;
+	color: white;
+	border: 1px;
+	border-color: #f3f3f3;
+}
+
+#mapOptions{
+	background-color: #F8F8F8;
+	padding:5px;
+	width:100%;
+}
+
+#distance{
+	float: left;
+}
+
+#cityOptions{
+	float: left;
+}
+
+#jsonOutputBox{
+		font-family: 'Roboto', sans-serif;
+    background-color: white; /* Light Gray */
+    border: none;
+    color: 	#505050; /* Dark Gray */
+    padding: 5px 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left:15px;
+}
+
+#jsonOutputBox h3{
+	color:gray;
+}
